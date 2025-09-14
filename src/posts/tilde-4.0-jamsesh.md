@@ -40,6 +40,8 @@ JamSesh was built using WebRTC (Web Real-Time Communication), a browser-native t
 
 WebRTC is an open-source framework used by applications like Google Meet, WhatsApp Web, and Discord to transmit audio, video, and other data directly between browsers or mobile devices. It is designed to be fast, secure, and efficient by working on a peer-to-peer model. This means that instead of sending media through a central server, devices send it directly to each other, reducing latency and server load.
 
+[![Web-RTC-Logo.png](https://i.postimg.cc/7ZNrzHwJ/Web-RTC-Logo.png)](https://postimg.cc/87sYQVFT)
+
 To make this happen, WebRTC relies on a few key components:  
 
 * a signaling server  
@@ -98,7 +100,7 @@ The video call setup served as the blueprint for our entire project, helping us 
 
 [![video call.jpg](https://i.postimg.cc/WzQ0kszq/vid-call.jpg)](https://postimg.cc/PvQLGsmd)
 
-Above: the very first video call between Maaya and Vanshitha
+*Above: the very first video call between Maaya and Vanshitha*
 
 ---
 
@@ -154,11 +156,11 @@ Now talking about our user interface, initially we had a very basic setup which 
 
 It did not exactly comply with our vision of an application where people would head over to jam to music with their buddies.  
 
-We further optimised it to look user friendly—where there were two windows for showcasing peer to peer connection using face cams, now there exists a nice front page, as you enter JamSesh, where it gives the user two main options: to either **Host a Jam** or to **Join a Jam**. The user is allowed to input their name and generate a code (Host) or enter a code (Join).  
+We further optimised it to look user friendly - where there were two windows for showcasing peer to peer connection using face cams, now there exists a nice front page, as you enter JamSesh, where it gives the user two main options: to either **Host a Jam** or to **Join a Jam**. The user is allowed to input their name and generate a code (Host) or enter a code (Join).  
 
 Once the user has entered the room, they are welcomed with a playback bar showing elapsed time and a list of friends on the side who are present in the room.  
 
-We tried to make it as easy to use, and we are looking forward to adding more features such as in-room chat where people can add their song recommendations as well as catch up in general!  
+We tried to make it as easy as possible to use, and we are looking forward to adding more features such as in-room chat where people can add their song recommendations as well as catch up in general!  
 
 Here’s JamSesh in all its glory (at the time of penning this blog):  
 
@@ -175,4 +177,6 @@ Here’s JamSesh in all its glory (at the time of penning this blog):
 
 ### Wrapping Up
 
-JamSesh was such a fun project to build. We learned a lot, broke things along the way, and got them working again. More than anything, it was about creating something that makes listening to music with friends feel effortless. We hope you enjoy using it as much as we enjoyed making it!
+JamSesh was such a fun project to build. We learned a lot, broke things along the way, and got them working again. More than anything, it was about creating something that makes listening to music with friends feel effortless. We hope you enjoy using it as much as we enjoyed making it! 
+
+Check it out: https://jamsesh-8wui.onrender.com/
